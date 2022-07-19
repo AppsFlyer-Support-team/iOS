@@ -1,0 +1,11 @@
+framework module wrappedaf {
+  umbrella header "wrappedaf.h"
+
+  export *
+  module * { export * }
+}
+
+module wrappedaf.Swift {
+    header "wrappedaf-Swift.h"
+    requires objc
+}
