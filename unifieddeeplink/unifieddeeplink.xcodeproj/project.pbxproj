@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18905B010AC419E79B2F9036 /* Pods_unifieddeeplink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99944BA80EAFEFEC815CF178 /* Pods_unifieddeeplink.framework */; };
+		334E99BA256C7E1900AB3865 /* DeepLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334E99B9256C7E1900AB3865 /* DeepLinkView.swift */; };
+		33DB1B8C256C7858007D0EA2 /* unifieddeeplinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB1B8B256C7858007D0EA2 /* unifieddeeplinkApp.swift */; };
+		33DB1B8E256C7858007D0EA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DB1B8D256C7858007D0EA2 /* ContentView.swift */; };
+		33DB1B90256C785B007D0EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DB1B8F256C785A007D0EA2 /* Assets.xcassets */; };
+		33DB1B93256C785B007D0EA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DB1B92256C785B007D0EA2 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		334E99B9256C7E1900AB3865 /* DeepLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkView.swift; sourceTree = "<group>"; };
+		33DB1B88256C7858007D0EA2 /* unifieddeeplink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unifieddeeplink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DB1B8B256C7858007D0EA2 /* unifieddeeplinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unifieddeeplinkApp.swift; sourceTree = "<group>"; };
+		33DB1B8D256C7858007D0EA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33DB1B8F256C785A007D0EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33DB1B92256C785B007D0EA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33DB1B94256C785B007D0EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33DB1B9B256C7A76007D0EA2 /* unifieddeeplink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = unifieddeeplink.entitlements; sourceTree = "<group>"; };
+		99944BA80EAFEFEC815CF178 /* Pods_unifieddeeplink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unifieddeeplink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E2CFEAD3E6299F4E8A7B4C /* Pods-unifieddeeplink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unifieddeeplink.release.xcconfig"; path = "Target Support Files/Pods-unifieddeeplink/Pods-unifieddeeplink.release.xcconfig"; sourceTree = "<group>"; };
+		E929C38CF75A025FB434726E /* Pods-unifieddeeplink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unifieddeeplink.debug.xcconfig"; path = "Target Support Files/Pods-unifieddeeplink/Pods-unifieddeeplink.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33DB1B85256C7858007D0EA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18905B010AC419E79B2F9036 /* Pods_unifieddeeplink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33DB1B7F256C7858007D0EA2 = {
+			isa = PBXGroup;
+			children = (
+				33DB1B8A256C7858007D0EA2 /* unifieddeeplink */,
+				33DB1B89256C7858007D0EA2 /* Products */,
+				F35D0FFD839397E2176573A0 /* Pods */,
+				4FF437896203617CE0B499B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33DB1B89256C7858007D0EA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33DB1B88256C7858007D0EA2 /* unifieddeeplink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33DB1B8A256C7858007D0EA2 /* unifieddeeplink */ = {
+			isa = PBXGroup;
+			children = (
+				33DB1B9B256C7A76007D0EA2 /* unifieddeeplink.entitlements */,
+				33DB1B8B256C7858007D0EA2 /* unifieddeeplinkApp.swift */,
+				33DB1B8D256C7858007D0EA2 /* ContentView.swift */,
+				33DB1B8F256C785A007D0EA2 /* Assets.xcassets */,
+				33DB1B94256C785B007D0EA2 /* Info.plist */,
+				33DB1B91256C785B007D0EA2 /* Preview Content */,
+				334E99B9256C7E1900AB3865 /* DeepLinkView.swift */,
+			);
+			path = unifieddeeplink;
+			sourceTree = "<group>";
+		};
+		33DB1B91256C785B007D0EA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33DB1B92256C785B007D0EA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FF437896203617CE0B499B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99944BA80EAFEFEC815CF178 /* Pods_unifieddeeplink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F35D0FFD839397E2176573A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E929C38CF75A025FB434726E /* Pods-unifieddeeplink.debug.xcconfig */,
+				E0E2CFEAD3E6299F4E8A7B4C /* Pods-unifieddeeplink.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33DB1B87256C7858007D0EA2 /* unifieddeeplink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DB1B97256C785B007D0EA2 /* Build configuration list for PBXNativeTarget "unifieddeeplink" */;
+			buildPhases = (
+				EEF138D2AC137D843C29F4CF /* [CP] Check Pods Manifest.lock */,
+				33DB1B84256C7858007D0EA2 /* Sources */,
+				33DB1B85256C7858007D0EA2 /* Frameworks */,
+				33DB1B86256C7858007D0EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = unifieddeeplink;
+			productName = unifieddeeplink;
+			productReference = 33DB1B88256C7858007D0EA2 /* unifieddeeplink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33DB1B80256C7858007D0EA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					33DB1B87256C7858007D0EA2 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 33DB1B83256C7858007D0EA2 /* Build configuration list for PBXProject "unifieddeeplink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33DB1B7F256C7858007D0EA2;
+			productRefGroup = 33DB1B89256C7858007D0EA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33DB1B87256C7858007D0EA2 /* unifieddeeplink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33DB1B86256C7858007D0EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DB1B93256C785B007D0EA2 /* Preview Assets.xcassets in Resources */,
+				33DB1B90256C785B007D0EA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EEF138D2AC137D843C29F4CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-unifieddeeplink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33DB1B84256C7858007D0EA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DB1B8E256C7858007D0EA2 /* ContentView.swift in Sources */,
+				334E99BA256C7E1900AB3865 /* DeepLinkView.swift in Sources */,
+				33DB1B8C256C7858007D0EA2 /* unifieddeeplinkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33DB1B95256C785B007D0EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33DB1B96256C785B007D0EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33DB1B98256C785B007D0EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E929C38CF75A025FB434726E /* Pods-unifieddeeplink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = unifieddeeplink/unifieddeeplink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"unifieddeeplink/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H9QMETUU8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = unifieddeeplink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.afsupportdemo.unifieddeeplink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33DB1B99256C785B007D0EA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E2CFEAD3E6299F4E8A7B4C /* Pods-unifieddeeplink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = unifieddeeplink/unifieddeeplink.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"unifieddeeplink/Preview Content\"";
+				DEVELOPMENT_TEAM = 5H9QMETUU8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = unifieddeeplink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.afsupportdemo.unifieddeeplink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33DB1B83256C7858007D0EA2 /* Build configuration list for PBXProject "unifieddeeplink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DB1B95256C785B007D0EA2 /* Debug */,
+				33DB1B96256C785B007D0EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33DB1B97256C785B007D0EA2 /* Build configuration list for PBXNativeTarget "unifieddeeplink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DB1B98256C785B007D0EA2 /* Debug */,
+				33DB1B99256C785B007D0EA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33DB1B80256C7858007D0EA2 /* Project object */;
+}
