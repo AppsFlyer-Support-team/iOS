@@ -1,0 +1,3 @@
+target 'objctest' do
+     pod 'AppsFlyerFramework'
+end
