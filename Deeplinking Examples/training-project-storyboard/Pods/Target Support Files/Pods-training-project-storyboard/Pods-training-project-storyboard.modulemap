@@ -1,6 +1,0 @@
-framework module Pods_training_project_storyboard {
-  umbrella header "Pods-training-project-storyboard-umbrella.h"
-
-  export *
-  module * { export * }
-}
