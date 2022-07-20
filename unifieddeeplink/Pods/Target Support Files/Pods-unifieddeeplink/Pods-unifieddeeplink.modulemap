@@ -1,6 +1,0 @@
-framework module Pods_unifieddeeplink {
-  umbrella header "Pods-unifieddeeplink-umbrella.h"
-
-  export *
-  module * { export * }
-}
