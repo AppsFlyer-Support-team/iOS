@@ -20,7 +20,7 @@
 
 // Start the AppsFlyer SDK
 - (void)sendLaunch:(UIApplication *)application {
-    //[[AppsFlyerLib shared] start];
+    [[AppsFlyerLib shared] start];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
